@@ -10,7 +10,7 @@ with open(os.path.join(CURRENT_DIR, "README.md"), encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="qdax",
+    name="qdax_fork",
     version=__version__,
     packages=find_packages(),
     url="https://github.com/adaptive-intelligent-robotics/QDax",
